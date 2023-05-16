@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/header_footer.css">
+    <link rel="stylesheet" type="text/css" href="css/заказать.css">
+    <title>Заказать</title>
+</head>
+<body>
+    <header class="container-fluid">
+        <div class="container d-flex">
+            <img src="images/logo1.png" alt="#" class="logo"/>
+            <nav class="menu">
+                <a href="услуги.html">Услуги</a>
+                <a href="index.html">Главная</a>
+                <a href="отзывы.html">Отзывы</a>
+                <a href="о нас.html">О нас</a>
+                <a href="контакты.html">Контакты</a>
+            </nav>
+            <form name="search" action="#" method="get">
+                <div>
+                    <input type="text" name="search" placeholder="Поиск по каталогу" />
+                    <input type="submit" name="search" value=" " />
+                </div>
+            </form>
+            <div class="user">
+               <a href="авторизация.html"><img src="images/last user2.png" alt="user" style="width: 60px; margin-top: -5px;" /></a>
+            </div>
+        </div>
+    </header>
+    <main>
+         <div class="main-zakaz">
+            <div class="zakaz-h1">
+                <h1>Быстрый заказ</h1>
+            </div>
+            <div class="form-otziv">
+            <div class="form-field">
+                <input type="text" placeholder="Ваше имя">
+            </div>
+            <div class="form-field">
+                <input type="text" placeholder="Телефон для связи">
+            </div>
+            <div class="form-field">
+                <input type="email" placeholder="E-mail (не обязательно)">
+            </div>
+            <div class="form-field">
+                <textarea placeholder="Продукция, размер, кол-во, сроки и т.д"></textarea>
+            </div>
+            <select name="carta">
+                <option value="r0">Способ оплаты</option>
+                <option value="r1">Наличные</option>
+                <option value="r2">Банковская карта</option>
+            </select>
+            <form enctype="multipart/form-data" method="post">
+                <p><input type="file" name="f">
+               </form> 
+            <div class="form-button">
+                <form action="index.html">
+                <button class="button"> Отправить </button>
+            </form>
+        </div>
+            </div>
+         </div>
+        </main>
+    <footer class="container-fluid" >
+        <div class="container d-flex">
+            <div class="left d-flex">
+                <figure>
+                    <img src="images/logo1.png" alt="logo">
+                    <figcaption> г. Оренбург ул. Чкалова 11</figcaption>
+                </figure>
+                <nav>
+                    <a href="услуги.html">Услуги</a>
+                    <a href="index.html">Главная</a>
+                    <a href="о нас.html">О нас</a>
+                    <a href="контакты.html">Контакты</a>
+                </nav>
+                <div class="work">
+                    <p>Пн-Пт - 9:00-18:00</p>
+                    <p> Сб - 10:00-14:00</p> 
+                    <p>Вс - выходной</p>
+                </div>
+            </div>
+            <div class="right">
+                <div class="post">
+                   <p> Наша почта: spo08@mail.orb.ru</p>
+                </div>
+                <div class="sociallinks">
+                    <p>Мы в соц.сетях:</p>
+                    <a href="https://vk.com/gapou_okei"><img src="images/icons8-вконтакте-64.png" alt="vk"></a>
+                    <a href="https://web.telegram.org/k/#@okei_56ru"><img src="images/icons8-телеграмма-app-50 (1).png" alt="tg" class="tg"></a>
+                </div>
+            </div>
+        </div>
+        <div class="container copyrights">
+            <p> Все права защищены &copy; 2023</p>
+        </div>
+    </footer>
+</body>
+</html>

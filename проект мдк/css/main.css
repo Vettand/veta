@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Rubik+Iso&display=swap');
+main {
+    position: relative;
+    background-color: #7597BE;
+    max-height: 12000px;
+    display: flex;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+:root {
+   --index: calc(1vw + 1vh);
+}
+.top {
+    position: relative;
+}
+.top img{
+    width: calc(var(--index)*69);
+    align-items: center;
+    justify-content: center;
+}
+#foto1, #foto2 {
+    position: relative;
+}
+#foto2 {
+    display: flex;
+    top: calc(var(--index)*-16.5);
+    align-items: center;
+    justify-content: center;
+}
+main .nad h1{
+    position: absolute;
+  text-align: center;
+  justify-content: center;
+  color: #fff;
+  border-left: 3px solid #fff;
+  width: calc(var(--index)*11);
+  top: calc(var(--index)*20);
+  right: calc(var(--index)*30);
+}
+main .top h1{
+    display: flex;
+    position: absolute;
+    margin-bottom: calc(var(--index)*7.5);
+    margin-left: calc(var(--index)*-9.5);
+    color: #fff;
+    line-height: 40px;
+
+}
+main .top p{
+    display: flex;
+    position: absolute;
+    margin-bottom: calc(var(--index)*2.5);
+    margin-top: calc(var(--index)*2);
+    margin-left: calc(var(--index)*-6);
+    color: #fff;
+    font-size: calc(var(--index)*1);
+    line-height: 25px;
+}
+ .card {
+    display: inline-block;
+    position: relative;
+    background-color: #fff;
+    width: 380px;
+    height: 370px;
+    border-radius: 20px;
+    padding: 30px;
+    margin-bottom: 250px;
+    margin-left: 260px;
+    margin-top: -70px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+ }
+ .card img {
+    display: block;
+    position: relative;
+    width: 320px;
+    height: 300px;
+    text-align: center;
+    transition: 1s;
+ }
+ .card-title {
+    text-align: center;
+    margin-top: 13px;
+    font-weight: 600;
+ }
+ button {
+    cursor: pointer;
+    position: relative;
+    width: 370px;
+    padding: 12px;
+    border-radius: 20px;
+    margin-top: 25px;
+    margin-left: -31px;
+    border: none;
+    background-color: #fff;
+    color: black;
+    font-size: 12pt;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    
+ }
+ button:hover {
+    cursor: pointer;
+    font-weight: 600;
+    background-color: #2E4566;
+    color: #fff;
+ }
+ 

@@ -1,0 +1,147 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Rubik+Iso&display=swap');
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+ :root {
+   --index: calc(1vw + 1vh);
+}
+ body {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    font-size: 16px;
+ }
+ .container-fluid {
+    width: 100%;
+    background-color: #2E4566;
+ }
+ .container {
+    width: calc(var(--index)*55);
+    margin: 0 auto;
+ }
+ .logo {
+   height: calc(var(--index)*4);
+ }
+ .d-flex {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+ header > .container {
+   padding-top: calc(var(--index)*1.3);
+   padding-bottom: calc(var(--index)*1.3);
+ }
+ header .container .menu a{
+   font-size: 0.875em;
+   text-decoration: none;
+   color: #fff;
+   margin-top: 0;
+   margin-bottom: 0;
+   margin-right: calc(var(--index)*2.3);
+   margin-left: calc(var(--index)*0.3);
+   position: relative;
+ }
+ header .container .menu a::before {
+   content: '';
+   position: absolute;
+   bottom: -5px;
+   left: 0;
+   width: 100%;
+   height: 2px;
+   transition: 0.2s;
+   background-color: #fff;
+   transform: scaleX(0);
+ }
+ header .container .menu a:hover:before{
+   width: 100%;
+   transform: scaleX(1);
+ }
+header form div{
+   justify-content: center;
+   padding: 10px 20px;
+   border: 1px solid #fff;
+   border-radius: 50px;
+}
+header form div input[type='submit']{
+   width: 20px;
+   height: 20px;
+   background: url("../images/search.png") no-repeat;
+   background-size: cover;
+   border: none;
+
+}
+header form div input[type='submit']:hover{
+   cursor: pointer;
+}
+header form div input[type='text']{
+   background: transparent;
+   border: none;
+   color: #fff;
+   margin-right: 10px;
+}
+footer {
+   background-color: #2E4566;
+   padding-top: 50px;
+   padding-bottom: 20px;
+}
+footer .container {
+   align-items: flex-start;
+}
+footer .left {
+   align-items: flex-start;
+}
+footer .left figure figcaption {
+   color: #fff;
+   font-size: 0.875em;
+   margin-top: 20px;
+   margin-left: 15px;
+   max-width: 105px;
+}
+figure img {
+   height: 12vh;
+}
+footer .left nav {
+   margin-left: 100px;
+}
+footer .left nav a{
+   display: block;
+   font-size: 0.875em;
+   color: #fff;
+   margin-bottom: 20px;
+   text-decoration: none;
+   margin-left: 40px;
+}
+footer .left .work{
+   display: block;
+   font-size: 0.875em;
+   color: #fff;
+   margin-left: 100px;
+}
+footer .left .work p{
+   margin-bottom: 20px;
+}
+footer .right .post p{
+   max-width: 150px;
+   color: #fff;
+   margin-bottom: 40px;
+   font-size: 0.875em;
+}
+footer .right .sociallinks p{
+   color: #fff;
+   font-size: 0.875em;
+}
+footer .right img{
+   width: 33px;
+   margin: 3px;
+   margin-left: 0;
+}
+footer .right .tg{
+   margin-right: 9px;
+}
+footer .copyrights {
+   text-align: center;
+   color: #bfbfbf;
+   font-size: 0.750em;
+   margin-top: 50px;
+}
